@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5193B8ED-7638-4B6A-8207-8B69F886D395}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LevenshteinAutomaton.Test</RootNamespace>
+    <AssemblyName>LevenshteinAutomaton.Test</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Lev1TAutomata_AcceptWord.cs" />
+    <Compile Include="Lev2TAutomata_AcceptWord.cs" />
+    <Compile Include="Lev2TAutomata_GetCharacteristicVector_Test.cs" />
+    <Compile Include="FullNeighborhood.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LevenshteinAutomaton\LevenshteinAutomaton.csproj">
+      <Project>{0028CB36-93F9-4B08-9C75-4179CC804B8D}</Project>
+      <Name>LevenshteinAutomaton</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

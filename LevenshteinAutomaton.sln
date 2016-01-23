@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevenshteinAutomaton", "LevenshteinAutomaton\LevenshteinAutomaton.csproj", "{0028CB36-93F9-4B08-9C75-4179CC804B8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevenshteinAutomaton.Test", "LevenshteinAutomaton.Test\LevenshteinAutomaton.Test.csproj", "{5193B8ED-7638-4B6A-8207-8B69F886D395}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0028CB36-93F9-4B08-9C75-4179CC804B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0028CB36-93F9-4B08-9C75-4179CC804B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0028CB36-93F9-4B08-9C75-4179CC804B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0028CB36-93F9-4B08-9C75-4179CC804B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5193B8ED-7638-4B6A-8207-8B69F886D395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5193B8ED-7638-4B6A-8207-8B69F886D395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5193B8ED-7638-4B6A-8207-8B69F886D395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5193B8ED-7638-4B6A-8207-8B69F886D395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = LevenshteinAutomaton\LevenshteinAutomaton.csproj
+	EndGlobalSection
+EndGlobal
