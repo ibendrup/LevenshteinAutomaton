@@ -3,7 +3,7 @@ using System;
 namespace LevenshteinAutomaton
 {
 	/// <summary>
-	/// Universal deterministic Levenstein automaton for Damerau-Levenstein distance
+	/// Universal deterministic Levenshtein automaton for Damerau-Levenshtein distance
 	/// </summary>
 	public class LevTAutomataImitation
 	{

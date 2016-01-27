@@ -4,7 +4,7 @@ namespace LevenshteinAutomaton
 {
 	/// <summary>
 	/// This class stores precompiled transition tables
-	/// for universal deterministic Levenstein automata (with transpositions)
+	/// for universal deterministic Levenshtein automata (with transpositions)
 	/// Tables are stored as a static fields
 	/// Supported edit distances N are 1 and 2
 	/// </summary>

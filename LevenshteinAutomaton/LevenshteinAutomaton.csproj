@@ -38,6 +38,7 @@
     <Compile Include="ParametricDescription.cs" />
     <Compile Include="Trie.cs" />
     <Compile Include="TrieNode.cs" />
+    <Compile Include="SpellChecker.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

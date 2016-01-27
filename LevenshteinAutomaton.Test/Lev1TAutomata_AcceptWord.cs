@@ -64,6 +64,16 @@ namespace LevenshteinAutomaton.Test
 				Assert.True(automata.AcceptWord(typo));
 			}
 		}
+
+		[Test()]
+		public void Ababa ()
+		{
+			const string word = "ababa";
+			var automata = new LevTAutomataImitation (word, 1);
+			foreach (string typo in FullNeighborhood.GenerateNeighbors1(word)) {
+				Assert.True(automata.AcceptWord(typo));
+			}
+		}
 	}
 }
 

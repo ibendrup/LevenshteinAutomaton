@@ -41,6 +41,7 @@
     <Compile Include="Lev2TAutomata_AcceptWord.cs" />
     <Compile Include="Lev2TAutomata_GetCharacteristicVector_Test.cs" />
     <Compile Include="FullNeighborhood.cs" />
+    <Compile Include="SpellChecker_GetCorrections1T.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LevenshteinAutomaton\LevenshteinAutomaton.csproj">
