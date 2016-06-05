@@ -13,7 +13,7 @@ namespace LevenshteinAutomaton
 		/// </summary>
 		public readonly String Key;
 		/// <summary>
-		/// Перечень дочерних узлов
+		/// Children node list
 		/// </summary>
 		public Dictionary<char, TrieNode> Children = new Dictionary<char, TrieNode>();        
 
