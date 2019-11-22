@@ -9,3 +9,5 @@ Spellchecker implemented in accordance with refined FB-Trie algorithm - Mihov an
 Parametric descriptions precalculated for edit distances 1 and 2 with transpositions
 
 Implemented in C#
+
+You can find detailed description in russian here: https://habr.com/en/post/275937/
